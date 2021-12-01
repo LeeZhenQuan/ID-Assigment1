@@ -5,31 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
-<nav>
-    <a href="index.html">Home</a> |
-    <a href="resume.html">Resume</a> |
-    <a href="project.html">Project</a> |
-    <a href="achievements.html">Achievement</a> |
-    <a href="contact.html">Contact</a> |
+<header>
+<nav class = "navdesign">
+    <a href="index.html">Home</a> 
+    <a href="resume.html">Resume</a> 
+    <a href="project.html">Project</a> 
+    <a href="achievements.html">Achievement</a> 
+    <a href="contact.html">Contact</a> 
   </nav>
+</header>
 <body>
+  <div class = "container">
+    <div class = "split">
     <h1>Resume</h1>
-    <div id = "leftbox1">
     <h2>Work Experience</h2>
-</div>
-<div id = "middlebox2">
+  </div>
+<div class = "split">
     <h3>Year</h3>
     <p>April 2020 - October 2020</p>
     <h3>Internship</h3>
     <p>Level 1 Security Operations Center Analyst at CyberProof Singapore</p>
 </div>
-<hr>
-<div id = "leftbox1">
+<div class = "split">
     <h2>Education</h2>
 </div>
-<div id = "middlebox2">
+<div class = "split">
     <h3>Year</h3>
     <p>2019 - 2021</p>
     <h3>Higher Nitec in Cyber & Network Security</h3>
@@ -42,8 +48,14 @@
         <li>Perform vulnerability assessment</li>
         <li>Perform cyber security operations</li>
       </ul>  
-      <h3>Year</h3>
-      <p>2017 - 2018</p>
+    </div>
+    
+    <div class = "split">
+     
+      </div>
+      <div class ="split">
+        <h3>Year</h3>
+        <p>2017 - 2018</p>
     <h3>Nitec in Info-Communications Technology (Networking & Systems Administration)</h3>
     <ul>
         <li>Manage computer systems and devices</li>
@@ -54,11 +66,10 @@
         <li>Support application maintenance and deployment</li>
       </ul>  
 </div>
-<hr>
-<div id = "leftbox1">
+<div class = "split">
     <h2>Skills</h2>
 </div>
-<div id = "middlebox2">
+<div class = "split">
     <ul>
         <li>Basic Knowledge in IBM Qradar</li>
         <li>Basic Knowledge in Microsoft Azure Sentinel</li>
@@ -71,6 +82,7 @@
         <li>Basic Knowledge in Networking (LAN and Wireless)</li>
         <li>Basic Knowledge in Visual Studio</li>
       </ul>  
+</div>
 </div>
 </body>
 </html>
