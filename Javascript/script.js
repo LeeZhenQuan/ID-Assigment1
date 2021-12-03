@@ -3,5 +3,5 @@ function myFunction() {
     
 function sendEmail() 
     {
-        window.location = "mailto:Damon0lee@gmail.com";
+        window.location = "mailto:Damon0lee@gmail.com?subject=Important! From Resume website";
     }
