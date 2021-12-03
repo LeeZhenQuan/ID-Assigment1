@@ -27,7 +27,7 @@ My professional experiences, education, and skills are all listed in resume.html
 
 There is a pptx slide inside project.html that will show one of my project work during my ITE days. Because the powerpoint slide is linked to the organization's email as part of their security policy, you must be a member of the organization to access it.
 
-The picture button on the inside of contact.html will take you to my LinkedIn profile page, while the other button labeled Email me will display a text directly below the button after the user clicks it. The display text is created with javascript.
+The picture button on the inside of contact.html will take you to my LinkedIn profile page, while the other button labeled Email me will display a text directly below the button after the user clicks it as well as opening mail application with my email address in the to field. The display text and opening of mail is created using javascript.
 
 My achievement award may be found at achievements.html
 
@@ -71,6 +71,7 @@ Button (Email Me) contact.html
 I have took reference from 
 https://www.geeksforgeeks.org/html-dom-input-email-object/
 https://www.w3schools.com/tags/ev_onclick.asp
+https://css-tricks.com/all-about-mailto-links/
 
 Button (LinkedIn) contact.html
 I have took reference from 
